@@ -1,0 +1,143 @@
+@import url("./base.css");
+/* Reset some browser default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+    font-size: 14px;
+}
+
+nav .nav-buttons button {
+    margin-left: 15px;
+    padding: 8px 16px;
+    background-color: #1a73e8; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+nav .nav-buttons button:hover {
+    background-color: #0c5db4;
+}
+
+/* Hero Section (Google Logo and Search Bar) */
+.Hero-Section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Hero-Section h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+    color: #ffffff; /* White text */
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+    background-color: #2a2a2a; /* Dark input background */
+    color: white; /* White input text */
+}
+
+.search-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #e8eaed;
+}
+.Hero-Section h1 span {
+    display: inline-block;
+}
+
+.Hero-Section .blue { color: #4285F4; }
+.Hero-Section .red { color: #EA4335; }
+.Hero-Section .orange { color: #FBBC05; }
+.Hero-Section .green { color: #34A853; }
+
+
+.Hero-Section button {
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Hero-Section button:hover {
+    background-color: #e8eaed;
+}
+
+.lang {
+    margin-top: 20px;
+    text-align: center;
+    color: #d0d0d0; /* Lighter color for text */
+}
+
+.lang .languages {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.lang .languages li {
+    margin: 0 10px;
+}
+
+.lang .languages li a {
+    text-decoration: none;
+    color: #1a73e8; /* Link color */
+}
+

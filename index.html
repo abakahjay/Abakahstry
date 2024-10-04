@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Components/ggleimage.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <header>
+            <!-- Navigation Bar -->
+            <nav class="first-nav">
+                <div class="logo-secion">
+                    
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li class="Current-link"><a href="https://gmail.com">Gmail</a></li>
+                        <li><a href="https://www.google.com.gh/imghp?hl=en&authuser=0&ogbl">Images</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-buttons">
+                    <button class="login-button">Login</button>
+                    <button class="sign-up-button">Sign up</button>
+                </div>
+            </nav>
+            <!-- Header Section -->
+            <section class="Hero-Section">
+                <h1>
+                    <p>
+                        <span class="blue">G</span> 
+                        <span class="red">o</span>
+                        <span class="orange">o</span>
+                        <span class="blue">g</span>
+                        <span class="green">l</span>
+                        <span class="red">e</span>
+                    </p>
+                </h1>
+                
+                <form action="https://google.com" method="get" class="search-form" ></form>
+                    <input type="text" name="query" placeholder="Search....." class="search-input">
+                    <button type="submit" class="search-btn">🔍</button>
+                </form>
+                <div>
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
+                <div class="lang">
+                    <p>Google offered in:</p>
+                    <ul class="languages">
+                        <li><a href="https://www.google.com.gh/setprefs?sig=0_7UC5bLDzMI30UfjmnatA-wN6U5Y%3D&hl=ha&source=homepage&sa=X&ved=0ahUKEwispfiAnvOIAxUfRkEAHc-jCYQQ2ZgBCCA">Hausa</a></li>
+                        <li><a href="https://www.google.com.gh/setprefs?sig=0_7UC5bLDzMI30UfjmnatA-wN6U5Y%3D&hl=ak&source=homepage&sa=X&ved=0ahUKEwispfiAnvOIAxUfRkEAHc-jCYQQ2ZgBCCE">Akan</a></li>
+                        <li><a href="https://www.google.com.gh/setprefs?sig=0_7UC5bLDzMI30UfjmnatA-wN6U5Y%3D&hl=ee&source=homepage&sa=X&ved=0ahUKEwispfiAnvOIAxUfRkEAHc-jCYQQ2ZgBCCI">Ewe</a></li>
+                        <li><a href="https://www.google.com.gh/setprefs?sig=0_7UC5bLDzMI30UfjmnatA-wN6U5Y%3D&hl=gaa&source=homepage&sa=X&ved=0ahUKEwispfiAnvOIAxUfRkEAHc-jCYQQ2ZgBCCM">Ga</a></li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+        <footer>
+            <p>Ghana</p>
+        </footer>
+        <!-- Navigation Menu -->
+        <nav>
+            <div class="nav-menu" id="nav-menu"></div>
+                <ul>
+                    <li><a href="https://about.google/?utm_source=google-GH&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                    <li><a href="https://ads.google.com/intl/en_gh/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                    <li><a href="https://www.google.com.gh/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                    <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="https://policies.google.com/privacy?hl=en-GH&fg=1">Privacy</a></li>
+                    <li><a href="https://policies.google.com/terms?hl=en-GH&fg=1">Terms</a></li>
+                    <li><a href=""></a>Settings</li>
+                </ul>
+            </div>
+        </nav>
+    
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function() {
+        const navMenu = document.getElementById('nav-menu');
+        navMenu.classList.toggle('show');
+        });
+        
+        document.querySelector('.login-button').addEventListener('click', function() {
+            window.location.href = 'https://accounts.google.com';
+        });
+
+        document.querySelector('.sign-up-button').addEventListener('click', function() {
+            window.location.href = 'https://accounts.google.com/signup';
+        });
+
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('show');
+        });
+
+
+    </script>
+    
+    
+    </main>
+</body>
+</html>
+

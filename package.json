@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@micropython/micropython-webassembly-pyscript": "^1.24.0-preview-114",
+    "express": "^4.21.0"
+  },
+  "name": "abakahstry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
